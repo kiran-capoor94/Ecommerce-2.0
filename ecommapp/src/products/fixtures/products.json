@@ -1,0 +1,47 @@
+[
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "title": "Sexy Black Dress",
+        "description": "Sexy Black Dress!!!",
+        "price": "59.99",
+        "image": "products/2018/10/18/product-9.jpg",
+        "featured": true,
+        "active": true,
+        "timestamp": "2018-10-18T07:04:38.919Z",
+        "is_digital": false,
+        "slug": "sexy-black-dress"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "title": "Green Women Dress",
+        "description": "Women wear this and strip!",
+        "price": "129.22",
+        "image": "products/2018/10/18/product-3.jpg",
+        "featured": true,
+        "active": true,
+        "timestamp": "2018-10-18T07:05:03.548Z",
+        "is_digital": false,
+        "slug": "green-women-dress"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "title": "Material Wallpaper",
+        "description": "Wallpaper for cheap!",
+        "price": "10.00",
+        "image": "products/2018/10/23/material-wall.jpg",
+        "featured": true,
+        "active": true,
+        "timestamp": "2018-10-23T07:19:05.397Z",
+        "is_digital": false,
+        "slug": "material-wallpaper"
+    }
+}
+]

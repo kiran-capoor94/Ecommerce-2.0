@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block base_head %}
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+{% endblock base_head %}
+
+{% block content %}
+
+<h1>Hello, world!</h1>
+<div class="row">
+  <div class="col-12">
+    <img class="img-fluid" src="{% static 'img/architecture-3076685.jpg' %}" alt="" srcset="">
+    <p>{{ content }}</p>
+  </div>
+</div>
+{% if request.user.is_authenticated %}
+<div class="row">
+  <div class="col-12">
+    <h1>{{ premium_content }}</h1>
+  </div>
+</div>
+{% endif %}
+
+{% endblock content %}

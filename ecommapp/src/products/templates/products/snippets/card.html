@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;">
+    {% if instance.image %}
+    <a href="{% url 'products:detail' slug=instance.slug %}" class=""><img class="card-img-top" src="{{ instance.image.url }}" alt="Card image cap"></a>
+    {% endif %}
+    <div class="card-body">
+            <a href="{% url 'products:detail' slug=instance.slug %}" class=""><h5 class="card-title">{{ instance.title }}</h5></a>
+        <p class="card-text">{{ instance.description | linebreaks | truncatewords:20 }}</p>
+    </div>
+</div>
