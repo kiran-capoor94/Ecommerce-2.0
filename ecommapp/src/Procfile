@@ -1,1 +1,1 @@
-web: gunicorn ecommAppCFE.wsgi
+web: gunicorn ecommAppCFE.wsgi --log-file -
