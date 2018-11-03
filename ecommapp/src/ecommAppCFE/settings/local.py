@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 # Quick-start development settings - unsuitable for production
@@ -25,8 +25,15 @@ SECRET_KEY = 'sf8g@&-xpv1vu8vj47(ct!0!+cgib&ac#^ezpj$5@idqop8lvm'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1']
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'kiran.capoor94@gmail.com' 
+EMAIL_HOST_PASSWORD = 'ld4go56@V'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'Ecommerce'
+BASE_URL = '127.0.0.1:8000'
 
 # Application definition
 
@@ -159,3 +166,14 @@ MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR),'static_cdn', 'media_root')
 
 LOGIN_REDIRECT_URL = 'login/'
 LOGOUT_REDIRECT_URL = '/'
+
+#Let's Encrypt
+CORS_REPLACE_HTTPS_REFERER      = False
+HOST_SCHEME                     = "http://"
+SECURE_PROXY_SSL_HEADER         = None
+SECURE_SSL_REDIRECT             = False
+SESSION_COOKIE_SECURE           = False
+CSRF_COOKIE_SECURE              = False
+SECURE_HSTS_SECONDS             = None
+SECURE_HSTS_INCLUDE_SUBDOMAINS  = False
+SECURE_FRAME_DENY               = False

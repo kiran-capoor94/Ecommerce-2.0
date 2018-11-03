@@ -4,19 +4,12 @@
 .env
 
 
-ecommerce/settings/local.py
-ecommerce/aws/ignore2.py
+ecommerceAppCFE/settings/local.py
+ecommerceAppCFE/aws/ignore2.py
 
 .DS_STORE
-*.sublime-project
-fasttracktojquery/
 
-
-
-# Virtualenv related
-bin/
-include/
-pip-selfcheck.json
+.vscode/
 
 # Django related 
 
