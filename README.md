@@ -7,7 +7,7 @@
 
 1. Python 3.6+
 2. Django 2.0+
-3. mysqlclient 1.3.13 (Do not need this if using another SQL, PostGresSQL)
+3. mysqlclient 1.3.13 (Do not need this if using another SQL, PostGreSQL)
 4. Pillow 5.2+
 5. Microsoft Visual Studio Code for IDE
 
@@ -15,7 +15,7 @@
 
 1. Python 3.6+
 2. Django 2.0+
-3. mysqlclient 1.3.13 (Do not need this if using another SQL, PostGresSQL)
+3. mysqlclient 1.3.13 (Do not need this if using another SQL, PostGreSQL)
 4. Pillow 5.2+
 5. Microsoft Visual Studio Code for IDE
 
